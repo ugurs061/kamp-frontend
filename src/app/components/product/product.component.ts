@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from 'src/app/models/product';
 
 @Component({
   selector: 'app-product',
@@ -12,5 +13,5 @@ export class ProductComponent {
   product4 = { productId: 4, productName: 'Keyboard', categoryId: 1, unitPrice: 5 }
   product5 = { productId: 5, productName: 'Monitor', categoryId: 1, unitPrice: 5 }
 
-  products = [this.product1, this.product2, this.product3, this.product4, this.product5]
+  products:Product[] = [this.product1, this.product2, this.product3, this.product4, this.product5]
 }
