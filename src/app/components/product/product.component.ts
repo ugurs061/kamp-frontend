@@ -20,6 +20,6 @@ export class ProductComponent implements OnInit {
   }
 
   getProducts(){
-   // this.httpClient.get()
+   // this.httpClient.get() 1
   }
 }
